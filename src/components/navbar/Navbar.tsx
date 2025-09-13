@@ -6,7 +6,7 @@ import BtnMenu from "./_components/BtnMenu";
 
 const Navbar: React.FC = () => {
   return (
-    <header className="px-4 md:px-10 py-3 md:py-5 bg-white/25 backdrop-blur-[2px]">
+    <header className="px-4 md:px-10 py-3 md:py-5 bg-white/25 backdrop-blur-[2px] sticky top-0 start-0 md:relative">
       <div className="container">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
