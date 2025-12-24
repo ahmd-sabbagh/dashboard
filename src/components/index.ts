@@ -1,4 +1,4 @@
-import Navbar from "./navbar/Navbar";
+import Navbar from "./dashboardNavbar/Navbar";
 import Sidebar from "./sidbar/Sidebar";
 import Back from "./back/Back";
 import Input from "./input/Input";

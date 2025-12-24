@@ -34,7 +34,7 @@ const SelectFromMenu: React.FC<Props> = ({
       {condition && <h4 className="text-sm font-bold mb-3 block title-color">{title}</h4>}
       <div className="relative bg-white mt-1 rounded-lg border border-color desc-color h-[52px] flex items-center">
         {!condition && (
-          <h4 className="absolute text-xs bg-white px-1 top-[-8px] start-4">
+          <h4 className="absolute text-xs px-1 top-[-8px] start-4">
             {title}
           </h4>
         )}
